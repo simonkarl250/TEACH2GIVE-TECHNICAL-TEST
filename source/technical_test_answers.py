@@ -25,7 +25,7 @@ while True:
         offset = offset + 100
         if offset > 300:
             break
-        break  #remove this break for all results
+        break  # we can remove this break for all results for now lets use the first 100 data
 
     else:
         print(f"Failed to retrieve data: {response.status_code}")
